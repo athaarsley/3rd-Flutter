@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_gunung/list_category.dart';
+import 'package:project_gunung/category_model.dart';
 import 'package:project_gunung/main.dart';
 
 class AppCategoryList extends StatelessWidget {
@@ -63,9 +63,3 @@ class AppCategoryList extends StatelessWidget {
   }
 }
 
-class CategoryModel {
-  final String category;
-  final IconData icon;
-
-  CategoryModel({required this.category, required this.icon});
-}

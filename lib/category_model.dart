@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:project_gunung/app_category.dart';
+
+class CategoryModel {
+  final String category;
+  final IconData icon;
+
+  CategoryModel({required this.category, required this.icon});
+}
 
 final List<CategoryModel> categories = [
   CategoryModel(category: 'Mountain', icon: Icons.terrain),
